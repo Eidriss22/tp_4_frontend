@@ -1,0 +1,11 @@
+<nav class="navbar navbar-expand app-navbar px-3">
+  <a class="navbar-brand" routerLink="/">
+    <i class="bi bi-box-seam me-2"></i>ProductHub
+  </a>
+  <div class="navbar-nav ms-auto">
+    <a class="nav-link-app mx-1" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+    <a class="nav-link-app mx-1" routerLink="/products" routerLinkActive="active">Products</a>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
